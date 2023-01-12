@@ -1,0 +1,30 @@
+The bot has to be added in 2 different groups. One of them is for the admins to do the operations using the bot and the other is for the bot to do public announcements etc.
+Enter the Admins group ID and the public Group ID in the bot.py (See the Telegram API on how to do this)
+See the below link on how to get the chat ID of a group chat:
+https://www.alphr.com/find-chat-id-telegram/
+
+You need to set the bot's public url and the bot token in the bot.py
+
+You also need to edit credentials.json to your own Google Sheets API
+see below link for more information on how to get your own API keys for Google Sheet:
+https://developers.google.com/sheets/api/quickstart/python
+
+
+Install the required libraries using:
+sudo pip3 install -r requirements.txt
+
+In rare cases where you see errors on this, Instead of that use :
+sudo pip install -r requirements.txt
+
+
+
+
+FINALLY - Run the bot using :
+
+sudo python3 bot.py
+
+If the command did not work, use :
+sudo python bot.py
+
+
+The bot HAS to be admin in both groups to work out..
